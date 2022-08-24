@@ -4,10 +4,10 @@ import org.bukkit.Bukkit;
 import org.bukkit.plugin.java.JavaPlugin;
 
 public final class CheckThrow extends JavaPlugin {
-
     @Override
     public void onEnable() {
-        // Plugin startup logic
+        getServer().getPluginManager().registerEvents(new CheckThrowListener(this), this);
+        getCommand("qtoggle").setExecutor(new CheckThrowCommand(this));
 
     }
 
