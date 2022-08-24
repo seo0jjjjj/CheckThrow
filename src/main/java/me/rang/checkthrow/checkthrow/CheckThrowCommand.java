@@ -1,6 +1,6 @@
 package me.rang.checkthrow.checkthrow;
 
-import com.sun.tools.javac.comp.Check;
+
 import org.bukkit.ChatColor;
 import org.bukkit.NamespacedKey;
 import org.bukkit.command.Command;
@@ -22,7 +22,7 @@ public class CheckThrowCommand implements CommandExecutor {
         Player player;
         NamespacedKey namespacedKey = new NamespacedKey(plugin,"isQtoggled");
 
-        if(sender instanceof Player && args[0].length()==0){
+        if(sender instanceof Player){
             player = (Player) sender;
             PersistentDataContainer data = player.getPersistentDataContainer();
             String str = data.get(namespacedKey, PersistentDataType.STRING);
