@@ -3,4 +3,6 @@ version: '${project.version}'
 main: me.rang.checkthrow.checkthrow.CheckThrow
 api-version: 1.19
 authors: [ lnxdx ]
-description: check drop 
+description: check drop
+commands:
+
