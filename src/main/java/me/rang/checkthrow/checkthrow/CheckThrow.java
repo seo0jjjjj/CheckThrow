@@ -8,7 +8,7 @@ public final class CheckThrow extends JavaPlugin {
     public void onEnable() {
         // Plugin startup logic
         System.out.println("hello World!"); //seo0jjjjj
-        System.out.println("헉 안녕하세요");
+        System.out.println("헉 안녕하세요이얏호");
 
     }
 
