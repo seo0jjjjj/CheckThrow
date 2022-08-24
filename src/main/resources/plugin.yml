@@ -5,4 +5,5 @@ api-version: 1.19
 authors: [ lnxdx ]
 description: check drop
 commands:
-
+  의자:
+    description: 의자를 지정하는 명령어입니다.
